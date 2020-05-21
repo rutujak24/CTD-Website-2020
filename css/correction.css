@@ -1,0 +1,33 @@
+@media (min-width:1025px){
+    #car{
+        background-size: cover;
+        width: 1100px;
+        height:500px;
+    }
+    #vis_partner{
+        padding-top: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    #vis_partner{
+        padding-top: 60px;
+    }
+    
+}
+  
+@media only screen and (max-width: 600px){
+    #car{
+        background-size: cover;
+        width: 400px;
+        height:275px;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+    /* #ml_img{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+    } */
+}
